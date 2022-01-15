@@ -1,0 +1,37 @@
+{
+  "name": "learn_ts",
+  "version": "1.0.0",
+  "description": "learn typescript",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "test": "tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxian1990/learn_ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuxian1990/learn_ts/issues"
+  },
+  "homepage": "https://github.com/liuxian1990/learn_ts#readme",
+  "devDependencies": {
+    "@type-challenges/utils": "^0.1.1",
+    "tsd": "^0.19.1"
+  },
+  "tsd": {
+    "directory": "test-dts",
+    "compilerOptions": {
+      "strict": false,
+      "lib": [
+        "esnext",
+        "dom"
+      ]
+    }
+  }
+}
